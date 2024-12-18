@@ -1,0 +1,37 @@
+header{
+    color:black;
+    background-color: gray;
+}
+main{
+    background-color: aliceblue;
+}
+hr{
+    border-color: black;
+    border-width: 2mm;
+    border-bottom: 0cap;
+}
+article{
+    color:blue;
+}
+h2{
+    color: black;
+    
+}
+p{
+    color: dimgrey;
+}
+h1.myName{
+    text-align: center;
+    font-size: 10mm;
+}
+h1.centSum{
+    text-align: center;
+    background-color:aliceblue;
+}
+p.sumPar{
+    font-size: 5mm;
+}
+p.boldName{
+    font-size: 5mm;
+    color: black;
+}
