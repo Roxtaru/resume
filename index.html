@@ -1,14 +1,25 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <link rel="stylesheet" href="https://roxtaru.github.io/resume.github.io/style.css">
     </head>
 
     <body>
+        <style src="style.css"></style>
+
+        <button class="jumpTop">
+            <a class="jumpUp" href="#jumpTo">^</a>
+        </button>
         <header id="header">
             <h1 class="myName"><u>Arturo Garcia</u> (Art)</h1>
             <hr>
         </header>
+        <div id="jumpTo" class="jumpTo">
+            <button class="topBut"><a class="buttons" href="#contact">Contact</a></button>
+            <button class="topBut"><a class="buttons" href="#skills">Skills</a></button>
+            <button class="topBut"><a class="buttons" href="#projects">Projects</a></button>
+            <button class="topBut"><a class="buttons" href="#education">Education</a></button>
+            <button class="topBut"><a class="buttons" href="#workExp">Work Experience</a></button>
+        </div>
         <main>
             <h1 class="centSum">
                 <u>Summary</u>
@@ -20,7 +31,7 @@
             </h1>
             <article id="mainLeft">
                 <section>
-                    <h2><u>CONTACT</u></h2>
+                    <h2 id="contact"><u>CONTACT</u></h2>
                     <p>
                         <a>Arturo_Garcia_@live.com</a>
                     </p>
@@ -29,7 +40,7 @@
                     </p>
                 </section>
                 <section>
-                    <h2><u>SKILL</u></h2>
+                    <h2 id="skills"><u>SKILL</u></h2>
                     <p>
                         •	Proficient in Java, C++, Python, GD Script 
                     </p>
@@ -59,14 +70,14 @@
                     </p>
                 </section>
                 <section>
-                    <h2><u>PROJECTS</u></h2>
+                    <h2 id="projects"><u>PROJECTS</u></h2>
                     <p class="boldName"><b>Senior Project</b></p>
                     <a href="https://github.com/ArtGarci/AstroPonics">https://github.com/ArtGarci/AstroPonics</a>
                     <p class="boldName"><b>Personal Projects</b></p>
                     <a href="https://github.com/Roxtaru">https://github.com/Roxtaru</a>
                 </section>
                 <section>
-                    <h2><u>EDUCATION</u></h2>
+                    <h2 id="education"><u>EDUCATION</u></h2>
                     <p class="boldName"><b>UNLV</b></p>
                     <p>Bachelor's Degree in Computer Science</p>
                     <p>2020 - 2024</p>
@@ -77,7 +88,7 @@
             </article>
             <article id="mainRight">
                 <section>
-                    <h2><u>WORK EXPERIENCE</u></h2>
+                    <h2 id="workExp"><u>WORK EXPERIENCE</u></h2>
                     <section>
                         <p class="boldName"><b>Automotive Technician</b></p>
                         <p>CarMax | 2017 - Present</p>
